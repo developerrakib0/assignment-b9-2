@@ -1,0 +1,335 @@
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .navbar-logo .world, .navbar-logo .travel{
+        font-size: 21.543px;
+    }
+    .navbar ul {
+        display: block;
+    }
+
+    .background-image {
+        height: 483px;
+    }
+
+    .background-image-content h1 {
+        font-size: 22px;
+    }
+
+    .background-image-content p {
+        width: 304px;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0 auto
+    }
+
+    .travel-find-field {
+        flex-direction: column;
+        width: 287px;
+        gap: 16px;
+        align-items: center;
+        margin-top: 32px;
+    }
+
+    .travel-find-field input,#When,#Select-Type,
+    .travel-find-field button {
+        width: 255px;
+    }
+
+    /* popular section  */
+    .popular-section {
+        flex-direction: column;
+
+    }
+
+    .popular-section-content p,
+    .popular-section-content li {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .popular-section-image img {
+        margin-top: 24px;
+    }
+
+    /* destination section style  */
+    .destination-section-content h1 {
+        font-size: 20px;
+    }
+    .destination-section-content p {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .destination-section-images {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 176px);
+        .maldives, .indonesia, .srilanka, .america, .kashmir, .bangladesh,  .bandarban 
+         {
+            grid-column: 1 / 13;
+        }
+     }
+
+     /* why chose us section starst  */
+     .choose-us-section-heading h1 {
+        font-size: 20px;
+    }
+    .choose-us-section-heading p {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .choose-us-section-card {
+  
+        grid-template-columns: 1fr;
+        grid-template-rows: 289px 289px 289px;
+     
+    }
+    .handpicked {
+        grid-column: 1 / 13;
+
+    }
+    
+    .world-class {
+        grid-column: 1 / 13;
+    }
+    
+    .best-price {
+        grid-column: 1 / 13;
+    }
+    .choose-us-section-card img {
+        width: 48px;
+        height: 48px;
+    }
+    .choose-us-box h3 {
+        font-size: 20px;
+    }
+    .choose-us-box p {
+        width: 271px;    
+        font-size: 14px; 
+        line-height: 24px;
+    }
+
+/* discount section style here  */
+
+.discount-section-heading h3 {
+    font-size: 20px;
+}
+.discount-section-heading p {
+    width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.discount-section-first-part,.discount-section-second-part {
+
+}
+.discount-section-box {
+    width: 303px;
+    height: 376px;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.discount-section-box {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.discount-section-box-content {
+    padding: 10px;
+}
+.discount-section-box-icons {
+    gap: 0px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+
+}
+.first{
+    grid-column: 1 / 3;
+}
+.discount-section-box .place-name {
+    font-size: 20px; 
+}
+.discount-section-box .place-description {
+    width: 254px; 
+    font-size: 14px;
+    line-height: 24px;
+}
+.discount-section-box .place-price {
+    font-size: 16px;
+}
+.discount-section-box button {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+}
+
+
+/* perfect-place section style here  */
+.perfect-place{
+    flex-direction: column;
+}
+.perfect-place-content h1 {
+    width: 248px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.perfect-place-content p, .perfect-place-content ul li  {
+    width: 300px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.perfect-place-img iframe{
+    max-width: 335px;
+}
+.perfect-place-img img{
+    width: 100%;
+    height: 200px;
+}
+.perfect-place-img-content {
+    top: 60px;
+    left: 44px;
+}
+.perfect-place-img-content p {
+    font-size: 20px;
+    line-height: 30px; 
+}
+.perfect-place-img-icon {
+  
+    top: 152px;
+    left: 16px;
+    display: flex;
+
+}
+.playing-bar {
+    width: 90%;
+    top: 188px;
+    left: 16px;
+}
+/* payment method section style  */
+.payment-method {
+    width: 100%;
+    height: 500px;
+}
+.payment-form {
+    padding:10px 20px ;
+}
+.form-container img {
+    width: 60px;
+    height: 45px;
+}
+.payment-form h1 {
+    font-size: 20px;
+}
+.owner-container {
+    flex-direction: column;
+}
+.owner input, .cvv input, .number {
+    height: 30px;
+    width: 350px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.payment-form h2{
+font-size: 15px;
+}
+.form-container select{
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 13px;
+
+}
+.payment-form button{
+   
+    margin:10px 0 0 85px;
+    width: 200px;
+    height: 42px;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+/* news-letter section style start here  */
+
+.news-letter {
+    margin-top: 16px;
+ flex-direction: column;
+ gap: 16px;
+}
+.news-letter-form {
+    width: 100%;
+
+}
+.news-letter-form-content {
+    padding: 23px; 
+}
+.news-letter-form h4 {
+    font-size: 24px;
+}
+.news-letter-form p {
+    width: 270px;  
+    font-size: 14px;
+    line-height: 24px;
+}
+.news-letter-form hr {
+    width: 288px;
+}
+.news-letter-form input {
+    width: 330px;
+
+}
+.news-letter-form button {
+    width: 330px;
+}
+.news-letter-img img {
+    height: 300px;
+}
+.news-letter-img .image-card {
+    width: 214px;
+    height: 79px;
+}
+.news-letter-img .image-card p {
+    font-size: 15px;
+}
+.news-letter-img .image-card h2 {
+    font-size: 21px;
+}
+.news-letter-img .image-card {
+
+    top: 189px;
+    left: 120px;
+}
+
+/* footer section style here  */
+footer {
+    height: 309px;
+}
+.footer-logo h2 {
+    font-size: 21px;
+}
+.footer-para {
+    width: 287px;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer hr {
+    width: 335px;
+}
+
+
+}
