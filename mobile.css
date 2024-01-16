@@ -3,11 +3,14 @@
         max-width: 95%;
         margin: 0 auto;
     }
+    .three-dot{
+        display:inline;
+    }
     .navbar-logo .world, .navbar-logo .travel{
         font-size: 21.543px;
     }
     .navbar ul {
-        display: block;
+        display: none;
     }
 
     .background-image {
