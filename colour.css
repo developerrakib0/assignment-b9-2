@@ -547,10 +547,9 @@ main {
 }
 
 
-/* perfect-place section style here  */
+/* perfect-place section  */
 .perfect-place {
     display: flex;
-    /* gap: 28px; */
     margin-top: 100px;
 }
 
@@ -693,7 +692,7 @@ main {
 }
 
 
-/* payment-method section style here  */
+/* payment-method section */
 .payment-method {
     width: 100%;
     height: 500px;
@@ -791,7 +790,7 @@ line-height: normal;
     border: none;
     margin-bottom: 32px;
 }
-/* news-letter section style start here  */
+/* news-letter section  */
 .news-letter {
     display: flex;
     justify-content: space-between;
@@ -837,6 +836,7 @@ line-height: normal;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
     margin-bottom: 10px;
+    
 }
 
 .news-letter-form input {
@@ -915,7 +915,7 @@ line-height: normal;
     left: 298px;
 }
 
-/* footer section style here  */
+/* footer section  */
 footer {
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
